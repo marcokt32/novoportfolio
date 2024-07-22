@@ -1,0 +1,25 @@
+.competencias__item--titulo {
+    font-size: 1.5rem;
+}
+
+.competencias__item--descricao {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 0) {
+    .competencias__item {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        border-left: none;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .competencias__item {
+        width: 45%;
+        border-left: 1px solid #ccc;
+        border-bottom: none;
+        padding: 1rem;
+    }
+}

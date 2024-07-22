@@ -1,0 +1,16 @@
+.formacoes__lista {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__lista {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacoes__lista {
+        width: 80%;
+    }
+}

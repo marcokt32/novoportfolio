@@ -1,0 +1,33 @@
+
+.competencias__metas {
+    animation: slideInThree 1s ease forwards;
+}
+
+@media screen and (min-width: 0) {
+    .competencias__metas {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        border-left: none;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .competencias__metas {
+        width: 100%;
+        border-bottom: none;
+        padding: 1rem;
+    }
+}
+
+@keyframes slideInThree {
+    0% {
+        transform: translateX(200%);
+        text-align: left;
+    }
+    100% {
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+}

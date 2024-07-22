@@ -1,0 +1,6 @@
+.certificado {
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-around;
+    width: calc(100% - 10rem);
+}

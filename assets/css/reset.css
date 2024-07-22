@@ -1,0 +1,64 @@
+:root {
+    --azul-escuro: rgb(50,100,150);
+    --azul-claro: #009bdf;
+    --branco: #f9f9f9;
+    --gelo: #f1f1f1;
+    --cinza-escuro: #505050;
+    --cinza-claro: #758398;
+    --branco-rodape: #d1d1d1;
+    --preto-rodape: #1a1c1b3b;
+}
+
+body {
+    /*background-image: radial-gradient(ellipse at 100% 0px, lightSteelBlue , #fdfdfd 90%);*/
+    background-image: linear-gradient(135deg, lightSteelBlue 20%, #fdfdfd 40%,#fdfdfd 45%, lightSteelBlue 60%);
+    animation: moveGradient 1.5s ease forwards;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+strong {
+    color: var(--azul-claro);
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0) {
+    body {
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-size: 200% 200%;
+    }
+}
+
+/* background animation */
+
+@keyframes moveGradient {
+    0% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 50% 50%;
+    }
+    
+}

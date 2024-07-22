@@ -1,0 +1,7 @@
+.rodape__item {
+    list-style: none;
+}
+
+.rodape__item--logo {
+    height: 25px;
+}

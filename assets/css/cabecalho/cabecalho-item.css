@@ -1,0 +1,21 @@
+.cabecalho__item {
+    margin-left: 1rem;   
+}
+
+.aberto {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__item {
+        margin-left: 0;
+        margin-bottom: .3rem;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .cabecalho__item {
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+}

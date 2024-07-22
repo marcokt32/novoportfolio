@@ -1,0 +1,11 @@
+@media screen and (min-width: 0) {
+    .rodape__img {
+        height: 50px;   
+    }
+}
+
+@media screen and (min-width: 395) {
+    .rodape__img {
+        height: 100%;
+    }
+}

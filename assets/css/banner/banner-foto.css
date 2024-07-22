@@ -1,0 +1,19 @@
+.banner__foto {
+    background: url(../../img/Foto.png) no-repeat center / cover;
+    border-radius: 100%;
+    background-color:darkgrey ;
+}
+
+@media screen and (min-width: 395px) {
+    .banner__foto {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__foto {
+        display: initial;
+        height: 250px;
+        width: 250px;
+    }
+}

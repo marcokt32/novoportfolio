@@ -1,0 +1,11 @@
+.formacoes__link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.formacoes__link:hover {
+    border-bottom: 2px solid var(--azul-claro);
+    color: var(--azul-claro);
+    font-weight: bold;
+}

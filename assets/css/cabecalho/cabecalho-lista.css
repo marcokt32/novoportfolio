@@ -1,0 +1,17 @@
+.cabecalho__lista {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__lista {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .cabecalho__lista {
+        flex-direction: initial;
+    }
+}

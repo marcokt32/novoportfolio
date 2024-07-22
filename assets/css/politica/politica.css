@@ -1,0 +1,19 @@
+.politica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 0) {
+    .politica {
+        padding: 1.5rem;
+        width: calc(100% - 3rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .politica {
+        padding: 2rem 5rem;
+        width: calc(100% - 10rem);
+    }
+}

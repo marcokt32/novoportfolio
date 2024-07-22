@@ -1,0 +1,29 @@
+.skills__lista {
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0) {
+    .skills__lista {
+        height: 165vh;
+        grid-template-columns: 90%;
+        grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .skills__lista {
+        height: 100vh;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 30% 30% 30%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills__lista {
+        height: 50vh;
+        grid-template-columns: 16% 16% 16% 16% 16% 16%;
+        grid-template-rows: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.banner {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aberto {
+    display: flex;
+}
+
+@media screen and (min-width: 0) {
+    .banner {
+        padding: 1.5rem;
+        width: calc(100% - 3rem);
+        height: calc(100vh - 10rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        padding: 2rem 5rem;
+        width: calc(100% - 10rem);
+        height: calc(100vh - 55px - 4rem);
+    }
+}

@@ -1,0 +1,19 @@
+.competencias__lista {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    animation: slideInFour 1.5s ease forwards;
+}
+
+@media screen and (min-width: 0) {
+    .competencias__lista {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .competencias__lista {
+        flex-direction: initial;
+        height: 100%;
+    }
+}

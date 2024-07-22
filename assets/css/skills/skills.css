@@ -1,0 +1,30 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    animation: slideInFive 1s ease forwards;
+}
+
+@media screen and (min-width: 0) {
+    .skills {
+        width: calc(100%);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        width: calc(100%);
+        height: calc(50vh - 6rem);
+    }
+}
+
+@keyframes slideInFive {
+    0% {
+        transform: translateY(200%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+
+}

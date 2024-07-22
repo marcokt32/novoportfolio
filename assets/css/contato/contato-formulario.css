@@ -1,0 +1,63 @@
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    box-shadow: .5rem .5rem .5rem #ccc;
+    background-color: var(--gelo);
+}
+
+.contato__formulario--label {
+    margin: .3rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contato__formulario--campo {
+    margin: .3rem 0;
+    font-size: 1.2rem;
+}
+
+.contato__formulario--texto {
+    margin: .3rem 0;
+    font-size: 1.2rem;
+    height: 7rem;
+    resize: none;
+}
+
+.contato__formulario--botao {
+    margin: .3rem 0;
+    font-size: 1.2rem;
+    width: 5rem;
+    line-height: 1.5;
+    align-self: center;
+    border: none;
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.contato__formulario--botao:hover {
+    box-shadow: .3rem .3rem .3rem #555;
+    width: 6rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (min-width: 0) {
+    .contato__formulario {
+        width: 90%;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contato__formulario {
+        width: 70%;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+}

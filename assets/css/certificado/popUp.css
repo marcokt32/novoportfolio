@@ -1,0 +1,26 @@
+.popUp {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    border-radius: 15px;
+    left: 10vh;
+    top: 5vh;
+    width: 90%;
+    height: 80vh;
+    padding: 1rem;
+    background-color: red;
+}
+
+.popUp--show {
+    display: flex;
+}
+
+.popUp--cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popUp--fechar {
+    height: 2rem;
+}

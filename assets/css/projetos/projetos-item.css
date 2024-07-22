@@ -1,0 +1,30 @@
+.projetos__item {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gelo);
+    padding: .5rem;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.projetos__item:hover {
+    box-shadow: .5rem .5rem .5rem #555 ;
+    margin: .1rem;
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (min-width: 0) {
+    .projetos__item {
+        flex-direction: column;
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .projetos__item {
+        flex-direction: initial;
+        height: 90%;
+    }
+}
+

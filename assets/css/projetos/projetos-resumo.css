@@ -1,0 +1,22 @@
+.projetos__resumo {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    flex-basis: 50%;
+}
+
+.projetos__resumo--titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}
+
+.projetos__resumo--descricao {
+    font-size: 1rem;
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,33 @@
+.rodape {
+    background: var(--preto-rodape);
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 0) {
+    .rodape {
+        padding: 0 1rem;
+        justify-content: center;
+        height: auto;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 395) {
+    .rodape {
+        padding: 0 1rem;
+        justify-content: center;
+        height: 55px;
+        flex-direction: initial;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        padding: 0 5rem;
+        justify-content: space-between;
+        width: calc(100% - 10rem);
+        height: 55px;
+        flex-direction: initial;
+    }
+}

@@ -1,0 +1,19 @@
+.competencias__titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    animation: slideInFour 1s ease forwards;
+}
+
+@keyframes slideInFour {
+    0% {
+        transform: translateX(-200%);
+        text-align: left;
+    }
+    100% {
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+}

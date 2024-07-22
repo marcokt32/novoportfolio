@@ -1,0 +1,20 @@
+.cabecalho__navegacao {
+    height: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__navegacao .aberto {
+        display: initial;
+        font-weight: bold;
+    }
+
+    .cabecalho__navegacao {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .cabecalho__navegacao {
+        display: initial;
+    }
+}

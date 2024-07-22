@@ -1,0 +1,22 @@
+.cabecalho__link {
+    color: var(--cinza-escuro);
+    text-decoration: none;
+}
+
+.cabecalho__link:hover {
+    border-bottom: 2px solid var(--azul-claro);
+    color: var(--azul-claro);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__link {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .cabecalho__link {
+        font-size: 1.2rem;
+    }
+}

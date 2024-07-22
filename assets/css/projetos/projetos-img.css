@@ -1,0 +1,23 @@
+.projetos__img {
+    flex-basis: 40%;
+}
+
+.projetos__img--decodificador {
+    background: url(../../img/decodificador.svg) no-repeat center / cover;
+}
+
+.projetos__img--forca {
+    background: url(../../img/forca.svg) no-repeat center / cover;
+}
+
+.projetos__img--cake {
+    background: url(../../img/cakecalc.svg) no-repeat center / cover;
+}
+
+.projetos__img--fruitgift {
+    background: url(../../img/fruigift.png) no-repeat center / cover;
+}
+
+.projetos__img--jumpball {
+    background: url(../../img/JumpBall.png) no-repeat center / cover;
+}

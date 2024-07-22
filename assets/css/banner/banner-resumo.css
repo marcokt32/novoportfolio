@@ -1,0 +1,67 @@
+.banner__resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    animation: slideInTwo 1.3s ease forwards;
+}
+
+.banner__resumo--titulo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.banner__resumo--subtitulo{
+    color: var(--cinza-claro);
+    font-family: 'Playfair Display', serif;
+}
+
+.banner__resumo--intro {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .banner__resumo {
+        width: 100%;
+        align-self: flex-end;
+    }
+
+    .banner__resumo--titulo {
+        line-height: 1.7rem;
+        font-size: 1.5rem;
+    }
+    .banner__resumo--subtitulo{
+        font-size: 1.2rem;
+    }
+    .banner__resumo--intro {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__resumo {
+        width: 40%;
+        align-self: flex-end;
+    }
+    .banner__resumo--titulo {
+        font-size: 1.5rem;
+    }
+    .banner__resumo--subtitulo{
+        font-size: 1.8rem;
+    }
+    .banner__resumo--intro {
+        font-size: 2rem;
+    }
+}
+
+@keyframes slideInTwo {
+    0% {
+        transform: translateX(-200%);
+        text-align: left;
+    }
+    100% {
+        transform: translateX(0%);
+        text-align: left;
+    }
+}

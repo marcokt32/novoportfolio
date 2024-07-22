@@ -1,0 +1,7 @@
+.projetos__titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}

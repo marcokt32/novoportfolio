@@ -1,0 +1,39 @@
+.projetos {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    animation: slideInSix 1s ease forwards;
+}
+
+.aberto {
+    display: flex;
+}
+
+@media screen and (min-width: 0) {
+    .projetos {
+        padding: 1rem;
+        width: calc(100% - 3rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projetos {
+        padding: 1.5rem 2rem;
+        width: calc(100% - 4rem);
+    }
+
+    .skills {
+        width: calc(100%);
+    }
+}
+
+@keyframes slideInSix {
+    0% {
+        transform: translateY(200%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+
+}

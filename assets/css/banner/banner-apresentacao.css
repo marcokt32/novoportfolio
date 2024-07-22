@@ -1,0 +1,64 @@
+.banner__apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    animation: slideInOne 1s ease forwards;
+}
+
+.banner__apresentacao--titulo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.banner__apresentacao--subtitulo{
+    color: var(--cinza-claro);
+    font-family: 'Playfair Display', serif;
+}
+
+.banner__apresentacao--intro {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .banner__apresentacao {
+        width: 60%;
+    }
+
+    .banner__apresentacao--titulo {
+        font-size: 2rem;
+    }
+    .banner__apresentacao--subtitulo{
+        font-size: 1.2rem;
+    }
+    .banner__apresentacao--intro {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__apresentacao {
+        width: 60%;
+    }
+    .banner__apresentacao--titulo {
+        font-size: 4rem;
+    }
+    .banner__apresentacao--subtitulo{
+        font-size: 1.8rem;
+    }
+    .banner__apresentacao--intro {
+        font-size: 2rem;
+    }
+}
+
+@keyframes slideInOne {
+    0% {
+        transform: translateX(200%);
+        text-align: left;
+    }
+    100% {
+        transform: translateX(0%);
+        text-align: left;
+    }
+}

@@ -1,0 +1,25 @@
+.formacoes__item {
+    margin: .1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.formacoes__item:hover {
+    background-color: rgba(50, 50, 50, .1);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__lista {
+        line-height: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacoes__lista {
+        line-height: 1rem;
+    }
+}
